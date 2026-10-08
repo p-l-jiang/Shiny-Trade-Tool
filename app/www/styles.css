@@ -1,0 +1,50 @@
+/* Canadian Trade Explorer - small layout tweaks on top of Bootstrap 5 */
+
+/* Keep control rows in card headers compact */
+.card-header .form-group,
+.card-header .shiny-input-container {
+  margin-bottom: 0;
+}
+.card-header .shiny-options-group .form-check-inline {
+  margin-right: 0.75rem;
+}
+
+/* Value boxes: smaller, calmer text */
+.bslib-value-box {
+  min-height: 0 !important;
+}
+.bslib-value-box .value-box-area {
+  padding: 0.75rem 1rem !important;
+}
+.bslib-value-box .value-box-value {
+  font-size: 1.35rem;
+  line-height: 1.2;
+  word-break: break-word;
+}
+.bslib-value-box .value-box-title {
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color);
+}
+.bslib-value-box p {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  color: var(--bs-secondary-color);
+}
+
+/* Validation messages ("Choose a product...") read as friendly prompts */
+.shiny-output-error-validation {
+  color: var(--bs-secondary-color);
+  font-size: 1rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Sidebar footer text */
+.sidebar .text-muted.small {
+  line-height: 1.4;
+}
+
+/* Larger click targets for the product picker items */
+.selectize-control.multi .selectize-input > div {
+  padding: 2px 6px;
+}
