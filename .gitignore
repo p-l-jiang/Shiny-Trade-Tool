@@ -1,0 +1,29 @@
+# --- Generated data (rebuilt from data/raw/*.zip by scripts/prepare_data.R) ---
+data/processed/*
+!data/processed/.gitkeep
+
+# Loose extracted CIMT files - only the original zips belong in git
+data/raw/**/*.csv
+data/raw/**/*.txt
+data/raw/**/*.TXT
+data/raw/**/*.docx
+data/raw/*/
+
+# Legacy artefacts from the original stand-alone scripts
+*.rds
+trade_data*
+
+# --- R / RStudio ---
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rproj
+rsconnect/
+
+# --- OS clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
