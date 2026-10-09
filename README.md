@@ -24,7 +24,7 @@ You only need to do steps 1 and 2 once.
 
 2. **Download this project**
    - On this project's GitHub page, click the green **Code** button, then
-     **Download ZIP**. The download is large (about 2.5 GB) because it includes
+     **Download ZIP**. The download is large (about 3.2 GB) because it includes
      all the trade data.
    - Find the ZIP in your *Downloads* folder, right-click it and choose
      **Extract All…**, then **Extract**.
@@ -39,14 +39,6 @@ You only need to do steps 1 and 2 once.
      minutes. After that, the app starts in a few seconds.
    - The app opens in your web browser. **Keep the black window open while
      you use the app**; close it when you're done.
-
-## Quick start (Mac)
-
-1. Install R from <https://cran.r-project.org/bin/macosx/> (choose the
-   installer that matches your Mac: *Apple silicon* or *Intel*).
-2. Download and unzip this project as in step 2 above.
-3. Double-click **`Start Trade Explorer.command`**. If macOS says it can't be
-   opened, right-click the file, choose **Open**, then **Open** again.
 
 ## Using RStudio instead
 
