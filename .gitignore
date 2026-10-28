@@ -27,3 +27,6 @@ rsconnect/
 Thumbs.db
 desktop.ini
 ~$*
+
+# Generated analysis outputs
+analysis/output/
