@@ -74,10 +74,10 @@ app_server <- function(con, lk, steel_categories) function(input, output, sessio
     code <- clicked()$code
     current <- selected_codes()
     if (nchar(code) != code_width[[level()]] || code %in% current) return()
-    if (length(current) >= 10) {
-      showNotification("You can compare up to 10 products. Remove one first.", type = "warning")
-      return()
-    }
+    # if (length(current) >= 10) {
+    #   showNotification("You can compare up to 10 products. Remove one first.", type = "warning")
+    #   return()
+    # }
     set_products(level(), c(current, code))
     showNotification(paste("Added", product_label(code, lk, level()), "to your selection."),
                      duration = 3)
